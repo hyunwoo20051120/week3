@@ -8,7 +8,7 @@ public class Question8 {
         int height = sc.nextInt();
         System.out.print("Enter 몸무게: ");
         int weight = sc.nextInt();
-        int BIM = ( weight / height * height );
+        int BIM =  weight / ( height * height );
 
         if (BIM < 18.5) {
             System.out.println("저체중");
